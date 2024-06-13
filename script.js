@@ -16,6 +16,7 @@ const perguntas = [
                 texto: "Isso é maravilhoso!",
                 afirmacao: "afirmação"
             }
+
         ]
     },
     {
@@ -105,7 +106,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049 Evellyn";
+    caixaPerguntas.textContent = "Em 2049...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
